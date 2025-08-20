@@ -5,7 +5,7 @@ const JobSuggestions = ({ skills }) => {
 
   const fetchJoobleJobs = async () => {
     try {
-      const response = await fetch("http://localhost:5000/jobs/jooble", {
+      const response = await fetch("https://resume-analyzer-backend-7v08.onrender.com/jobs/jooble", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
