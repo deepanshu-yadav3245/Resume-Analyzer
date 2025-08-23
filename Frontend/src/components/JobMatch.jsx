@@ -9,7 +9,7 @@ const JobMatch = ({ resumeText }) => {
   useEffect(() => {
     const fetchJobs = async () => {
       try {
-        const res = await axios.post("https://resume-analyzer-backend-7v08.onrender.com/api/match-jobs", {
+        const res = await axios.post("https://resume-analyzer-backend-navy.vercel.app/api/match-jobs", {
           resumeText,
         });
         setJobs(res.data);
