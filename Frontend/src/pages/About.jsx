@@ -14,7 +14,7 @@ import {
   SiPostman,
   SiMongodb,
 } from "react-icons/si";
-import profileImg from "../assets/deepanshu.jpg";
+import profileImg from "../assets/Deepanshu.jpg";
 
 const techList = [
   { icon: <FaReact />, name: "ReactJS", color: "bg-blue-600" },
