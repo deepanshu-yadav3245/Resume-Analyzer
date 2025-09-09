@@ -23,7 +23,7 @@ const techList = [
   { icon: <SiExpress />, name: "ExpressJS", color: "bg-gray-800" },
   { icon: <SiPostman />, name: "Postman", color: "bg-pink-500" },
   { icon: <FaRobot />, name: "AI Parsing", color: "bg-purple-600" },
-  { icon: <SiMongodb />, name: "MongoDB", color: "bg-green-600" },
+  { icon: <SiMongodb />, name: "MongoDB", color: "bg-green-700" },
 ];
 
 const skillLevels = [
