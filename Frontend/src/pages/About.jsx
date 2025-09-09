@@ -35,7 +35,7 @@ const skillLevels = [
 
 const About = () => {
   return (
-    <section className="min-h-screen pt-28 px-6 bg-gradient-to-br from-white to-blue-50 dark:from-gray-900 dark:to-gray-800 text-gray-900 dark:text-white">
+    <section className="min-h-screen pt-30 px-6 bg-gradient-to-br from-white to-blue-50 dark:from-gray-900 dark:to-gray-800 text-gray-900 dark:text-white">
       <div className="max-w-6xl mx-auto space-y-16">
 
         {/* 🚀 Project Intro */}
