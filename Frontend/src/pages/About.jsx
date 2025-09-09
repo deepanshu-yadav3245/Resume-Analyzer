@@ -45,7 +45,7 @@ const About = () => {
           transition={{ duration: 0.6 }}
           className="text-center"
         >
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-blue-700 dark:text-cyan-400 mb-4">
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-blue-600 dark:text-cyan-400 mb-4">
             🚀 About Smart Resume Analyzer
           </h1>
           <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
