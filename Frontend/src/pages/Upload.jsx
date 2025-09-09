@@ -114,7 +114,7 @@ const Upload = ({ setResumeText }) => {
           disabled={loading}
           className={`mt-8 w-full py-3 rounded-xl font-semibold transition-all ${
             loading
-              ? "bg-blue-400 cursor-not-allowed"
+              ? "bg-blue-300 cursor-not-allowed"
               : "bg-blue-600 hover:bg-blue-700 cursor-pointer"
           } text-white shadow-lg text-lg z-10 relative`}
         >
