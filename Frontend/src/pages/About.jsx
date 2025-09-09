@@ -153,7 +153,7 @@ const About = () => {
             to give users real-world job opportunities based on their profile.
           </p>
           <p className="mt-4 text-sm text-gray-500 dark:text-gray-400 italic">
-            Built to empower job seekers with automation, clarity, and confidence 🚀
+            Built to empower job seekers with automation, clarity,  confidence 🚀
           </p>
         </motion.div>
 
