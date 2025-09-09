@@ -91,7 +91,7 @@ const About = () => {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ delay: 0.3, duration: 0.7 }}
+          transition={{ delay: 0.3, duration: 0.6 }}
           className="space-y-4"
         >
           <h2 className="text-2xl font-semibold text-blue-500 dark:text-cyan-300">
