@@ -48,7 +48,7 @@ const About = () => {
           <h1 className="text-4xl sm:text-5xl font-extrabold text-blue-600 dark:text-cyan-400 mb-4">
             🚀 About Smart Resume Analyzer
           </h1>
-          <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
+          <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-400 max-w-3xl mx-auto">
             Your smart AI assistant for analyzing resumes, extracting skills,
             and suggesting jobs from top platforms — all in one clean interface.
           </p>
