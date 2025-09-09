@@ -52,7 +52,7 @@ const About = () => {
             Your smart AI assistant for analyzing resumes, extracting skills,
             and suggesting jobs from top platforms — all in one clean interface.
           </p>
-          <p className="mt-4 italic text-lg text-gray-500 dark:text-gray-400">
+          <p className="mt-4 italic text-lg text-gray-600 dark:text-gray-400">
             “Technology + Resume = Opportunity” 🔍
           </p>
         </motion.div>
