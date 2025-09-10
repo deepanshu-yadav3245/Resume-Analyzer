@@ -74,7 +74,7 @@ const Home = () => {
 
           <motion.p
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            animate={{ opacity: 2 }}
             transition={{ delay: 0.3, duration: 0.5 }}
             className="text-lg dark:text-gray-300 text-black"
           >
