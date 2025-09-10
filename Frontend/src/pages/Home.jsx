@@ -48,7 +48,7 @@ const Home = () => {
       )}
 
       {/* Main Content */}
-      <div className="relative z-10 max-w-6xl mx-auto grid md:grid-cols-2 items-center gap-12 px-6 mt-12">
+      <div className="relative z-10 max-w-6xl mx-auto grid md:grid-cols-3 items-center gap-12 px-6 mt-12">
         {/* Left Content */}
         <div className="space-y-6 text-center md:text-left">
           <motion.h1
