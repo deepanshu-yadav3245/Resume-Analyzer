@@ -25,7 +25,7 @@ const Home = () => {
       className="min-h-screen pt-24 relative transition duration-500 text-gray-900 dark:text-white"
       style={{
         backgroundImage: darkMode ? darkGradient : lightGradient,
-        color: darkMode ? "white" : "#111827",
+        color: darkMode ? "white" : "#111826",
       }}
     >
       {/* Toggle Button */}
