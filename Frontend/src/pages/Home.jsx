@@ -92,7 +92,7 @@ const Home = () => {
             </a>
             <a
               href="/upload?demo=true"
-              className="px-6 py-3 border-2 border-cyan-400 text-cyan-500 rounded-xl hover:bg-cyan-500 hover:text-white transition text-lg"
+              className="px-6 py-3 border-2 border-cyan-600 text-cyan-500 rounded-xl hover:bg-cyan-500 hover:text-white transition text-lg"
             >
               🎯 Try Sample Resume
             </a>
