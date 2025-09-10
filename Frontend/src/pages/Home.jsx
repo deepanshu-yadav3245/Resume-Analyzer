@@ -86,7 +86,7 @@ const Home = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
               href="/upload"
-              className="flex items-center justify-center gap-4 px-6 py-3 bg-cyan-600 text-white rounded-xl shadow hover:bg-cyan-700 transition text-lg"
+              className="flex items-center justify-center gap-2 px-6 py-3 bg-cyan-600 text-white rounded-xl shadow hover:bg-cyan-700 transition text-lg"
             >
               <FaFileUpload /> Upload Resume
             </a>
