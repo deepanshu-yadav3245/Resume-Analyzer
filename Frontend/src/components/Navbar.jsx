@@ -21,7 +21,7 @@ const Navbar = () => {
         </Link>
 
         {/*  Links */}
-        <div className="space-x-5 text-sm sm:text-base font-medium">
+        <div className="space-x-6 text-sm sm:text-base font-medium">
           <Link
             to="/"
             className={`hover:text-cyan-300 transition ${
