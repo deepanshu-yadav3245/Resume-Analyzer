@@ -12,7 +12,7 @@ const Navbar = () => {
         {/*  Logo */}
         <Link
           to="/"
-          className="flex items-center gap-2 text-cyan-300 hover:text-cyan-400 transition"
+          className="flex items-center gap-5 text-cyan-300 hover:text-cyan-400 transition"
         >
           <FaRobot className="text-2xl animate-pulse" />
           <span className="text-xl font-extrabold tracking-wide drop-shadow-sm">
