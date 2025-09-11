@@ -7,7 +7,7 @@ const Navbar = () => {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <nav className="fixed top-1 left-0 w-full z-50 px-5 py-5 backdrop-blur-md bg-gradient-to-r from-blue-800/60 via-gray-900/40 to-purple-800/50 shadow-lg border-b border-blue-500/30">
+    <nav className="fixed top-0 left-0 w-full z-50 px-5 py-5 backdrop-blur-md bg-gradient-to-r from-blue-800/60 via-gray-900/40 to-purple-800/50 shadow-lg border-b border-blue-500/30">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/*  Logo */}
         <Link
