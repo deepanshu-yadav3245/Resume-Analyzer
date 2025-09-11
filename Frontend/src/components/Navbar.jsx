@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="space-x-6 text-sm sm:text-base font-medium">
           <Link
             to="/"
-            className={`hover:text-cyan-400 transition ${
+            className={`hover:text-cyan-300 transition ${
               isActive("/") ? "text-cyan-400 underline underline-offset-4" : "text-white"
             }`}
           >
