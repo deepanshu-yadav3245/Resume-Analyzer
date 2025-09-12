@@ -85,7 +85,7 @@ app.post("/upload", upload.single("resume"), async (req, res) => {
       text: parsed.text,
     });
   } catch (err) {
-    console.error("❌ Error parsing resume:", err.message);
+    console.error("❌ Error parsing resume in :", err.message);
     res.status(500).json({ error: "Failed to parse resume" });
   }
 });
