@@ -23,7 +23,7 @@ const Footer = () => {
       >
         {/* Glow Effects */}
         <div className="absolute -top-10 -left-10 w-48 h-48 bg-cyan-500/20 rounded-full blur-3xl opacity-30" />
-        <div className="absolute bottom-0 -right-10 w-56 h-56 bg-purple-500/20 rounded-full blur-2xl opacity-30" />
+        <div className="absolute bottom-0 -right-10 w-56 h-57 bg-purple-500/20 rounded-full blur-2xl opacity-30" />
 
         {/* Text */}
         <p className="text-center text-white/90 text-base sm:text-lg font-medium mb-6 z-10 relative tracking-wide">
