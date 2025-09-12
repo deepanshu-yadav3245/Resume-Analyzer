@@ -10,7 +10,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="w-full relative z-50 px-4 pt-12 pb-8">
+    <footer className="w-full relative z-52 px-4 pt-12 pb-8">
       {/* Top Divider */}
       <div className="max-w-6xl mx-auto border-t border-cyan-500/20 mb-10" />
 
