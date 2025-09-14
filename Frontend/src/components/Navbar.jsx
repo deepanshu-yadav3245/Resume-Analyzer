@@ -43,7 +43,7 @@ const Navbar = () => {
           <Link
             to="/about"
             className={`hover:text-cyan-400 transition ${
-              isActive("/about") ? "text-cyan-400  underline-offset-4" : "text-white"
+              isActive("/about") ? "text-cyan-400 underline underline-offset-4" : "text-white"
             }`}
           >
             About
