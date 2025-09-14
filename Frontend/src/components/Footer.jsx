@@ -49,7 +49,7 @@ const Footer = () => {
               icon: <FaEnvelope />,
               label: "Email",
               url: "mailto:deepanshu@example.com",
-              color: "hover:text-pink-400",
+              color: "hover:text-pink-500",
             },
           ].map(({ icon, label, url, color }, i) => (
             <motion.div
