@@ -33,7 +33,7 @@ const Navbar = () => {
 
           <Link
             to="/upload"
-            className={`hover:text-cyan- transition ${
+            className={`hover:text-cyan-400 transition ${
               isActive("/upload") ? "text-cyan-400 underline underline-offset-4" : "text-white"
             }`}
           >
