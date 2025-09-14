@@ -55,7 +55,7 @@ const Footer = () => {
             <motion.div
               key={i}
               whileHover={{ scale: 1.15 }}
-              className="relative group text-white text-3xl sm:text-3xl transition"
+              className="relative group text-white text-2xl sm:text-3xl transition"
             >
               <a href={url} target="_blank" rel="noopener noreferrer" className={`transition ${color}`}>
                 {icon}
