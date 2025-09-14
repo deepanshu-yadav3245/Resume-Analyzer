@@ -16,7 +16,7 @@ const JobSuggestions = ({ skills }) => {
       const data = await response.json();
       setJobs(data);
     } catch (error) {
-      console.error("Error fetching Jooble jobs:", error);
+      console.error("Error fetching Jooble jobs:", );
     }
   };
 
