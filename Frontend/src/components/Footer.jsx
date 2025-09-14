@@ -31,7 +31,7 @@ const Footer = () => {
         </p>
 
         {/* Social Links */}
-        <div className="flex justify-center gap-9 sm:gap-12 mb-6 relative z-10">
+        <div className="flex justify-center gap-8 sm:gap-12 mb-6 relative z-10">
           {[
             {
               icon: <FaGithub />,
