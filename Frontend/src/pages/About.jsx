@@ -152,7 +152,7 @@ const About = () => {
             Designed with a scalable frontend, modular backend, and API integration
             to give users real-world job opportunities based on their profile.
           </p>
-          <p className="mt-4 text-sm text-gray-500 dark:text-gray-400 italic">
+          <p className="mt-4 text-sm text-gray-500 dark:text-gray-500 italic">
             Built to empower job seekers with automation, clarity, and confidence 🚀
           </p>
         </motion.div>
