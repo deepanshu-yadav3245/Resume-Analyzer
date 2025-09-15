@@ -169,7 +169,7 @@ const About = () => {
       </div>
 
       {/* 🌐 Floating Social Buttons */}
-      <div className="fixed bottom-7 right-6 flex flex-col gap-3 z-50">
+      <div className="fixed bottom-6 right-6 flex flex-col gap-3 z-50">
         <a
           href="https://github.com/yourusername"
           target="_blank"
