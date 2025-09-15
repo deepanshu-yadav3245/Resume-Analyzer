@@ -158,7 +158,7 @@ const About = () => {
         </motion.div>
 
         {/* 🔍 Demo Upload CTA */}
-        <div className="mt-8 text-center">
+        <div className="mt-9 text-center">
           <button
             className="bg-cyan-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-cyan-700 transition shadow-lg"
             onClick={() => alert("Resume parsing feature coming soon!")}
