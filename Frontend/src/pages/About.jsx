@@ -182,7 +182,7 @@ const About = () => {
           href="https://linkedin.com/in/yourusername"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-blue-600 text-balck p-3 rounded-full shadow-lg hover:scale-110 transition"
+          className="bg-blue-600 text-white p-3 rounded-full shadow-lg hover:scale-110 transition"
         >
           <FaLinkedin size={20} />
         </a>
