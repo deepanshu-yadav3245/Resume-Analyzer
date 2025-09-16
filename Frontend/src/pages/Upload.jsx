@@ -70,7 +70,7 @@ const Upload = ({ setResumeText }) => {
           </motion.div>
           <p className="text-gray-700 font-medium text-center">
             {file ? (
-              <span className="text-blue-700">{file.name}</span>
+              <span className="text-blue-800">{file.name}</span>
             ) : (
               <>
                 <strong>Drag & drop</strong> or <u>click to upload</u> <br />
