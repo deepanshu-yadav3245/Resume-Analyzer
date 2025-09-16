@@ -95,7 +95,7 @@ const Upload = ({ setResumeText }) => {
             className="mt-6 text-sm text-gray-600 border border-blue-100 p-4 rounded-xl bg-white shadow-inner backdrop-blur z-10 relative"
           >
             <p>
-              <strong>📎 :</strong> {file.name}
+              <strong>📎 File:</strong> {file.name}
             </p>
             <p>
               <strong>📏 Size:</strong> {(file.size / 1024).toFixed(2)} KB
