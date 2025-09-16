@@ -108,7 +108,7 @@ const Upload = ({ setResumeText }) => {
 
         {/*  Submit Button */}
         <motion.button
-          whileTap={{ scale:  }}
+          whileTap={{ scale: 0.95 }}
           whileHover={{ scale: 1.03 }}
           onClick={handleSubmit}
           disabled={loading}
