@@ -98,7 +98,7 @@ const Upload = ({ setResumeText }) => {
               <strong>📎 File:</strong> {file.name}
             </p>
             <p>
-              <strong>📏 Size:</strong> {(file.size / 1024).toFixed(2)} KB
+              <strong>📏 :</strong> {(file.size / 1024).toFixed(2)} KB
             </p>
             <p>
               <strong>🧾 Type:</strong> {file.type}
