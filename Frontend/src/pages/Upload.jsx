@@ -101,7 +101,7 @@ const Upload = ({ setResumeText }) => {
               <strong>📏 Size:</strong> {(file.size / 1024).toFixed(2)} KB
             </p>
             <p>
-              <strong>🧾 :</strong> {file.type}
+              <strong>🧾 Type-:</strong> {file.type}
             </p>
           </motion.div>
         )}
