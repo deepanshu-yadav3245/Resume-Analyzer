@@ -58,7 +58,7 @@ const Upload = ({ setResumeText }) => {
         {/*  Modern File Drop Box */}
         <label
           htmlFor="resume"
-          className="w-full border-2 border-dashed border-blue-300 rounded-2xl px-6 py-12 flex flex-col items-center justify-center gap-2 cursor-pointer hover:bg-blue-50 transition relative z-10 group"
+          className="w-full border-2 border-dashed border-blue-400 rounded-2xl px-6 py-12 flex flex-col items-center justify-center gap-2 cursor-pointer hover:bg-blue-50 transition relative z-10 group"
         >
           <motion.div
             className="text-blue-600 text-6xl mb-2 group-hover:animate-bounce"
