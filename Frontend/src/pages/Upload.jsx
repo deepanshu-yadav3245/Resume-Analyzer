@@ -118,7 +118,7 @@ const Upload = ({ setResumeText }) => {
               : "bg-blue-600 hover:bg-blue-700 cursor-pointer"
           } text-white shadow-lg text-lg z-10 relative`}
         >
-          {loading ? "⏳ " : "🚀 Submit Resume"}
+          {loading ? "⏳ Uploading..." : "🚀 Submit Resume"}
         </motion.button>
       </motion.div>
     </section>
