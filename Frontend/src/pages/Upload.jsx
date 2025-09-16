@@ -109,7 +109,7 @@ const Upload = ({ setResumeText }) => {
         {/*  Submit Button */}
         <motion.button
           whileTap={{ scale: 0.95 }}
-          whileHover={{ scale:  }}
+          whileHover={{ scale: 1.03 }}
           onClick={handleSubmit}
           disabled={loading}
           className={`mt-8 w-full py-3 rounded-xl font-semibold transition-all ${
