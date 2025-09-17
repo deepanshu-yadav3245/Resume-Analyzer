@@ -16,7 +16,7 @@ const Footer = () => {
 
       <motion.div
         initial={{ opacity: 0, scale: 0.95 }}
-        whileInView={{ opacity: 1, scale:  }}
+        whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
         className="max-w-6xl mx-auto bg-gradient-to-br from-white/10 to-white/5 dark:from-white/5 dark:to-white/0 border border-cyan-400/10 shadow-xl rounded-2xl p-6 sm:p-8 backdrop-blur-md relative overflow-hidden"
