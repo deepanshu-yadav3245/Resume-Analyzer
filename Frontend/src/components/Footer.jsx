@@ -22,7 +22,7 @@ const Footer = () => {
         className="max-w-6xl mx-auto bg-gradient-to-br from-white/10 to-white/5 dark:from-white/5 dark:to-white/0 border border-cyan-400/10 shadow-xl rounded-2xl p-6 sm:p-8 backdrop-blur-md relative overflow-hidden"
       >
         {/* Glow Effects */}
-        <div className="absolute -top-10  w-48 h-50 bg-cyan-500/20 rounded-full blur-3xl opacity-30" />
+        <div className="absolute -top-10 -left-10 w-48 h-50 bg-cyan-500/20 rounded-full blur-3xl opacity-30" />
         <div className="absolute bottom-0 -right-10 w-56 h-57 bg-purple-500/20 rounded-full blur-2xl opacity-30" />
 
         {/* Text */}
