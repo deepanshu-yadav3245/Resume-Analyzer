@@ -5,7 +5,7 @@ const JobSuggestions = ({ skills }) => {
 
   const fetchJoobleJobs = async () => {
     try {
-      const response = await fetch("https://resume-analyzer-backend-navy.vercel.app/jobs/jooble", {
+      const response = await fetch("https://resume-analyzer-backend-dxn7.onrender.com/jobs/jooble", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
