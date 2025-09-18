@@ -13,7 +13,7 @@ router.post("/match-jobs", async (req, res) => {
 
   // ✅ Force resumeText to string (Fix for match is not a function error)
   if (Array.isArray(resumeText)) {
-    resumeText = resumeText.join(" ");
+    resumeText = .join(" ");
   } else if (typeof resumeText !== "string") {
     resumeText = String(resumeText || "");
   }
