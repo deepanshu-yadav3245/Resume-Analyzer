@@ -4,10 +4,10 @@ import axios from 'axios';
 const JobMatch = ({ resumeText }) => {
   const [jobs, setJobs] = useState([]);
 
-  console.log("🔥 ResumeText received:", resumeText); //  Log to check
+  console.log("🔥 ResumeText receive:", resumeText); //  Log to check
 
   useEffect(() => {
-    const fetchJobs =  () => {
+    const fetchJobs = async () => {
       try {
         const res = await axios.post("https://resume-analyzer-backend-navy.vercel.app/api/match-jobs", {
           resumeText,
