@@ -7,7 +7,7 @@ const JobMatch = ({ resumeText }) => {
   console.log("🔥 ResumeText received:", resumeText); //  Log to check
 
   useEffect(() => {
-    const fetchJobs = async () => {
+    const fetchJobs =  () => {
       try {
         const res = await axios.post("https://resume-analyzer-backend-navy.vercel.app/api/match-jobs", {
           resumeText,
