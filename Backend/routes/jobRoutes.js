@@ -9,7 +9,7 @@ const linkedinService = require("../services/linkedinService");
 const upworkService = require("../services/upworkService");
 
 router.post("/match-jobs", async (req, res) => {
-  let { resumeText } = req.body;
+  let { resume } = req.body;
 
   // ✅ Force resumeText to string (Fix for match is not a function error)
   if (Array.isArray(resumeText)) {
