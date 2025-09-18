@@ -4,7 +4,7 @@ import axios from 'axios';
 const JobMatch = ({ resumeText }) => {
   const [jobs, setJobs] = useState([]);
 
-  console.log("🔥 ResumeText receive:", resumeText); //  Log to check
+  console.log("🔥 ResumeText received:", resumeText); //  Log to check
 
   useEffect(() => {
     const fetchJobs = async () => {
