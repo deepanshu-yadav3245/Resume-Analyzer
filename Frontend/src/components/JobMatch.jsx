@@ -14,7 +14,7 @@ const JobMatch = ({ resumeText }) => {
         });
         setJobs(res.data);
       } catch (err) {
-        console.error("", err);
+        console.error("Job match error:", err);
       }
     };
 
