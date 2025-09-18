@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 const JobMatch = ({ resumeText }) => {
-  const [jobs, setJobs] = useState([]);
+  const [jobs, setJobs] = ([]);
 
   console.log("🔥 ResumeText received:", resumeText); //  Log to check
 
