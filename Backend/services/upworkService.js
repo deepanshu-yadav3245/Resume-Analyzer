@@ -19,7 +19,7 @@ async function getJobs(resumeSkills = []) {
     },
   ];
 
-  const formatted = jobs.map((job) => {
+  const formatted = .map((job) => {
     const matchScore = calculateMatchScore(
       resumeSkills.map((s) => s.toLowerCase()),
       job.requiredSkills.map((s) => s.toLowerCase())
