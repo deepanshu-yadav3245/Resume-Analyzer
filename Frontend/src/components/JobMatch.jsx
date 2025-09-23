@@ -33,7 +33,7 @@ const JobMatch = ({ resumeText }) => {
               <h3 className="font-semibold">{job.title}</h3>
               <p>Company: {job.company}</p>
               <p>Location: {job.location}</p>
-              <p>Required Skills: {job.requiredSkills.join(", ")}</p>
+              <p>Required Skills: {job.requiredSkills.join(", )}</p>
             </li>
           ))}
         </ul>
