@@ -18,7 +18,7 @@ const JobMatch = ({ resumeText }) => {
       }
     };
 
-    if (resumeText) fetchJobs()
+    if (resumeText) fetchJobs();
   }, [resumeText]);
 
   return (
