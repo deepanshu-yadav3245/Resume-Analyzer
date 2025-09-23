@@ -26,7 +26,7 @@ const JobMatch = ({ resumeText }) => {
       <h2 className="text-xl font-bold mb-2">🔍 Matching Jobs</h2>
       {jobs.length === 0 ? (
         <p>No matching jobs found.</p>
-      ) : (
+      
         <ul>
           {jobs.map((job, index) => (
             <li key={index} className="mb-3 p-3 border rounded">
