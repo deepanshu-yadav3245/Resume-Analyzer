@@ -42,4 +42,4 @@ const JobMatch = ({ resumeText }) => {
   );
 };
 
-export default JobMatch
+export default JobMatch;
