@@ -23,7 +23,7 @@ const JobMatch = ({ resumeText }) => {
 
   return (
     <div className="p-4 bg-white rounded-lg shadow">
-      <h2 className="text-xl font-bold mb-2">🔍 Matching Jobs</h2>
+      <h2 className="text-xl font-bold mb-3">🔍 Matching Jobs</h2>
       {jobs.length === 0 ? (
         <p>No matching jobs found.</p>
       ) : (
